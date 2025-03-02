@@ -33,10 +33,12 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult LayoutVerticalNavbar() //undone
+    public IActionResult LayoutVerticalNavbar() //done
     {
         return View();
     }
+
+
 
     public IActionResult Privacy()
     {
