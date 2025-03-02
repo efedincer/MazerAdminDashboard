@@ -18,22 +18,22 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult LayoutDefault()
+    public IActionResult LayoutDefault() //done
     {
         return View();
     }
 
-    public IActionResult LayoutHorizontal()
+    public IActionResult LayoutHorizontal() //todo
     {
         return View();
     }
 
-    public IActionResult LayoutVertical1Column()
+    public IActionResult LayoutVertical1Column() //undone
     {
         return View();
     }
 
-    public IActionResult LayoutVerticalNavbar()
+    public IActionResult LayoutVerticalNavbar() //undone
     {
         return View();
     }
