@@ -25,6 +25,8 @@ public class HomeController : Controller
 
     public IActionResult EmailApplication() => View();
 
+    public IActionResult AuthForgotPassword() => View();
+
     public IActionResult Privacy()
     {
         return View();
