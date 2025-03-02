@@ -23,7 +23,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult LayoutHorizontal() //todo
+    public IActionResult LayoutHorizontal() //done
     {
         return View();
     }
