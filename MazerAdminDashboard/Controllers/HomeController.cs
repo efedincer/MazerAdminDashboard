@@ -13,32 +13,17 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+    public IActionResult Index() => View();
 
-    public IActionResult LayoutDefault() //done
-    {
-        return View();
-    }
+    public IActionResult LayoutDefault() => View(); //done
 
-    public IActionResult LayoutHorizontal() //done
-    {
-        return View();
-    }
+    public IActionResult LayoutHorizontal() => View(); //done
 
-    public IActionResult LayoutVertical1Column() //undone
-    {
-        return View();
-    }
+    public IActionResult LayoutVertical1Column() => View(); //undone
 
-    public IActionResult LayoutVerticalNavbar() //done
-    {
-        return View();
-    }
+    public IActionResult LayoutVerticalNavbar() => View(); //done
 
-
+    public IActionResult EmailApplication() => View();
 
     public IActionResult Privacy()
     {
