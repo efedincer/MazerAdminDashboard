@@ -1,0 +1,19 @@
+name: YOLO Merge
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: YOLO Merge PR
+        run: |
+          git checkout main
+          git merge --no-ff ${{ github.head_ref }} -m "YOLO merge"
+          git push origin main
